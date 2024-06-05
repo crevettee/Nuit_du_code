@@ -7,7 +7,8 @@ def update():
         print("test")
 
 def draw():
-    pyxel.rect(0,0,3,3,9)
+    pyxel.rect(0,0,3,3,8)
+
 
 
 pyxel.run(update,draw)
